@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**_isalpha - check the code for ALX School students.
+/**
+ * _isalpha - check the code for ALX School students.
  * @c: letter being tested
  * Return: Always 0
  */
