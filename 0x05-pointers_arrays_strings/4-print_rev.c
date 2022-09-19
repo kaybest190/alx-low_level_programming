@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_rev - reverse something
  * @s: params
@@ -20,6 +21,4 @@ void print_rev(char *s)
 	}
 
 	putchar('\n');
-
-	return 0;
 }
