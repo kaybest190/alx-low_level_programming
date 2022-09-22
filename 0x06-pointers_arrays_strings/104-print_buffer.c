@@ -22,7 +22,7 @@ int isPrintableASCII(int n)
 void printHexes(char *b, int start, int end)
 {
 	int i = 0;
-	
+
 	while (i < 10)
 	{
 		if (i < end)
@@ -46,7 +46,7 @@ void printHexes(char *b, int start, int end)
 void printASCII(char *b, int start, int end)
 {
 	int ch, i = 0;
-	
+
 	while (i < end)
 	{
 		ch = *(b + i + start);
@@ -66,7 +66,7 @@ void printASCII(char *b, int start, int end)
 void print_buffer(char *b, int size)
 {
 	int start, end;
-	
+
 	if (size > 0)
 	{
 		for (start = 0; start < size; start += 10)
