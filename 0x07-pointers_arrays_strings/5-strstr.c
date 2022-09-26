@@ -1,7 +1,8 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _strstr - first occurrence of the substring needle in the string haystack
+ * *_strstr - locates a substring
  * @haystack: string to search in
  * @needle: substring to look for
  *
@@ -22,5 +23,6 @@ char *_strstr(char *haystack, char *needle)
 		if (!needle[j])
 			return (&haystack[i]);
 	}
+
 	return (NULL);
 }
