@@ -59,21 +59,15 @@ add = add->next;
 if (*h == add->p)
 {
 *h = NULL;
-
 free_listp2(&hptr);
-
 return (nnodes);
-
 }
-
 }
-
 curr = *h;
 *h = (*h)->next;
 free(curr);
 nnodes++;
 }
-
 *h = NULL;
 free_listp2(&hptr);
 return (nnodes);
